@@ -1,0 +1,34 @@
+
+.timetable {
+	float: left;
+	margin: 0 4px;
+	margin-bottom: 16px;
+	width: 280px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.timetable caption {
+	font-weight: bold;
+}
+
+.timetable .dummy {
+	height: 0;
+}
+
+.timetable .row1 {
+	width: 60px;
+}
+
+.timetable .row2 {
+	width: 218px;
+}
+
+.timetable td {
+	margin: 0;
+	border: solid 1px;
+}
+
+h2 {
+	clear: both;
+}

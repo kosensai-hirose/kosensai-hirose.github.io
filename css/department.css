@@ -1,0 +1,18 @@
+
+ul.department {
+	list-style-type: circle;
+}
+
+ul.department li {
+	margin-top: 12px;
+}
+
+.l1 {
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.l2 {
+	margin-left: 4em;
+	margin-top: 4px;
+}
