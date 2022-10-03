@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(#005d99, #8490c8);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+html{
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.main p {
+    font-size: 2rem;
+    margin: 10px 0 42px;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.logo {
+    width: 80%;
+    margin-top: 14px;
+}
+
+.page-header {
+    text-align: center;
+    margin: 10px 0 42px;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 1.5rem;
+}
+
+.page-header a{
+    color:#000;
+}
+
+.kaisaibi{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Rampart One', cursive;
+}
