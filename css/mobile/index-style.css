@@ -1,0 +1,10 @@
+.grid {
+	display: grid;
+	grid-template-columns: 0 100%;
+	grid-template-rows: 100% 400px;
+	grid-gap: 0;
+}
+
+aside {
+	display: none;
+}
