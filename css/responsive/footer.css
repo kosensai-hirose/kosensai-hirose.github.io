@@ -1,0 +1,40 @@
+@media screen and (max-width: 959px) {
+	.f-logos {
+		margin-right: 65px;
+	}
+}
+
+@media screen and (max-width: 519px) {
+	footer {
+		flex-flow: column;
+	}
+
+	.f-logos {
+		display: flex;
+	}
+
+	.sns-group {
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-end;
+		margin-left: 120px;
+		margin-bottom: 15px;
+	}
+
+	.sns-group a {
+		margin-bottom: 0;
+	}
+
+	.f-logos .sns {
+		width: 40px;
+	}
+
+	.f-links {
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.inner-links {
+		display: none;
+	}
+}

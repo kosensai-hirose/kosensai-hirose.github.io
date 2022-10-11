@@ -16,7 +16,7 @@ header {
 
 .grid {
 	display: grid;
-	grid-template-rows: auto 400px;
+	grid-template-rows: auto auto;
 	grid-auto-flow: column;
 	grid-gap: 0;
 }
@@ -70,8 +70,10 @@ h2 {
 
 	position: relative;
 
-	padding: var(--h-gap) 0 0 0;
-	margin: calc(-1 * var(--h-gap)) 0 40px 0;
+	padding: 0;
+	margin: 0 0 40px 0;
+
+	scroll-margin-top: var(--h-gap);
 }
 
 h3 {
@@ -301,4 +303,15 @@ input[name="tab-item"] {
 
 .transport li::before {
 	content: "➤";
+}
+
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+td{
+	border: solid 1px;
+	padding: 2px;
 }

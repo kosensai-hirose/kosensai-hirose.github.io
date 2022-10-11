@@ -1,0 +1,43 @@
+@media screen and (max-width: 959px) {
+	main {
+		grid-column: 1/3;
+	}
+
+	aside * {
+		display: none;
+	}
+
+	.content h1 {
+		--letter-size: calc((100vw * 0.52 - 2em) / 15);
+	}
+
+	.year {
+		font-size: 3.4vw;
+		line-height: 3.4vw;
+	}
+
+	.day {
+		font-size: 6.4vw;
+		line-height: 6.4vw;
+	}
+}
+
+@media screen and (max-width: 519px) {
+	.content h1 {
+		--letter-size: calc((100vw * 0.52) / 15 * 1.25);
+	}
+
+	.year {
+		font-size: 6vw;
+		line-height: 6vw;
+	}
+
+	.day {
+		font-size: 9vw;
+		line-height: 9vw;
+	}
+
+	.logo-sub {
+		width: 26vw;
+	}
+}

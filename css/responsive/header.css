@@ -1,0 +1,16 @@
+@media screen and (max-width: 959px) {
+}
+
+@media screen and (max-width: 519px) {
+	.h-logos {
+		padding: 9px 20px;
+	}
+
+	.h-links {
+		padding: 14px 15px;
+	}
+
+	.title {
+		display: none;
+	}
+}
