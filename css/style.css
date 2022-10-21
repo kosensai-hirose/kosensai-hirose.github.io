@@ -106,8 +106,12 @@ img.person {
 }
 
 .widthmax {
-	width: 100%;
+	width: 100% !important;
 	min-height: 500px;
+}
+
+img.widthmax {
+	min-height: 0;
 }
 
 .widthmax > p {
@@ -248,7 +252,16 @@ input[name="tab-item"] {
 	font-size: 1.2em;
 	font-weight: 300;
 
-	margin: 8px 0;
+	margin: 0;
+	margin-top: 8px;
+}
+
+.events .time {
+	font-family: sans-serif;
+	font-size: 0.8em;
+	font-weight: 200;
+	margin-bottom: 8px;
+	margin-left: 20px;
 }
 
 .events p {
@@ -314,4 +327,24 @@ table {
 td{
 	border: solid 1px;
 	padding: 2px;
+}
+
+.forms {
+	margin: 0;
+}
+
+.forms li {
+	list-style-type: circle;
+	margin-bottom: 5px;
+}
+
+.forms a {
+	text-decoration: none;
+
+	color: var(--text-dark);
+	font-family: sans-serif;
+}
+
+.forms a:hover {
+	opacity: 0.3;
 }
