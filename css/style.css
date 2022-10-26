@@ -330,16 +330,19 @@ td{
 }
 
 .forms {
-	margin: 0;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 
 .forms li {
-	list-style-type: circle;
+	list-style-type: none;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 .forms a {
 	text-decoration: none;
+	text-align: center;
 
 	color: var(--text-dark);
 	font-family: sans-serif;
