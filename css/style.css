@@ -330,19 +330,22 @@ td{
 }
 
 .forms {
-	margin-right: 20%;
-	margin-left: 20%;
+	margin: 0;
 }
 
-.forms li {
-	list-style-type: none;
-	margin-bottom: 5px;
+.forms img {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.forms h3 {
 	text-align: center;
+	font-weight: 400;
+	font-size: 1.3em;
 }
 
 .forms a {
 	text-decoration: none;
-	text-align: center;
 
 	color: var(--text-dark);
 	font-family: sans-serif;
